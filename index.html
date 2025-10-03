@@ -4,29 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="real.css">
 </head>
 <body>
-    <!-- The watch is encapsulated or within the main tag-->
+    <!-- The Structure of the watch-->
     <main>
-        <h1> STOP WATCH ⌚</h1>
-        
-    <div class="watch"> 
-        
-        <div class="hours">00 </div>
-        <div class="minute"> 00</div>
-        <div class="seconds">00</div>
-        
+        <h1>CLEAR</h1>
+        <div class="watch" id="display">00:00:00:00</div>
 
-    </div>
-
-    <div class="buttons">
-        <button class="start">Start</button>
-        <button class="stop">Stop</button>
-        <button class="reset">Reset</button>
-    </div>
+        
+        <div class="button">
+            <button id="startStopBtn">start/stop</button>
+            <button id="resetBtn">reset</button>
+        
+        </div>
     </main>
-    
     <script src="script.js"></script>
+
+    
 </body>
 </html>
