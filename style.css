@@ -68,12 +68,9 @@ h1 {
     .watch {
         font-size: 2.2rem;
     }
-    #startStopBtn {
-        width: 120px;
-        height: 60px;
-        font-size: 1.1rem;
-    }
+
     h1 {
         font-size: 2rem;
     }
 }
+
